@@ -23,7 +23,8 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "HappyManager\\": "src/"
+            "Happymanager\\": "app/test/DataControl/",
+            "Util\\": "app/test/Util/"
         }
     },
     "autoload-dev": {

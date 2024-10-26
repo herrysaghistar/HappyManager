@@ -108,9 +108,9 @@ class HappyManager extends Command
         return <<<EOT
         <?php
 
-        namespace App\\DC\\$dirname;
+        namespace HappyManager\\C\\ModulName;
 
-        class TemplateOnly
+        class TemplateOnlyC
         {
             public function exampleMethod()
             {
@@ -131,9 +131,9 @@ class HappyManager extends Command
         return <<<EOT
         <?php
 
-        namespace App\\DC\\$dirname;
+        namespace HappyManager\\R\\ModulName;
 
-        class TemplateOnly
+        class TemplateOnlyR
         {
             public function exampleMethod()
             {
@@ -154,9 +154,9 @@ class HappyManager extends Command
         return <<<EOT
         <?php
 
-        namespace App\\DC\\$dirname;
+        namespace HappyManager\\U\\ModulName;
 
-        class TemplateOnly
+        class TemplateOnlyU
         {
             public function exampleMethod()
             {
@@ -177,9 +177,9 @@ class HappyManager extends Command
         return <<<EOT
         <?php
 
-        namespace App\\DC\\$dirname;
+        namespace HappyManager\\D\\ModulName;
 
-        class TemplateOnly
+        class TemplateOnlyD
         {
             public function exampleMethod()
             {
@@ -200,7 +200,7 @@ class HappyManager extends Command
         return <<<EOT
         <?php
 
-        namespace App\\Util;
+        namespace Util;
 
         class Util
         {

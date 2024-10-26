@@ -15,14 +15,15 @@
 
 ## instalasi (kalo download package nya by external)
 
-1. composer.json ditambahkan `"HappyManager\\": "src/"`
+1. composer.json ditambahkan
 ```
     "autoload": {
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "HappyManager\\": "src/"
+            "Happymanager\\": "app/test/DataControl/",
+            "Util\\": "app/test/Util/"
         }
     },
 ```
