@@ -63,10 +63,10 @@ class HappyManager extends Command
     protected function createDirectoryStructure($dirname)
     {
         $directories = [
-            "app/{$dirname}/DataControl/C",
-            "app/{$dirname}/DataControl/R",
-            "app/{$dirname}/DataControl/U",
-            "app/{$dirname}/DataControl/D",
+            "app/{$dirname}/DataControl/C/ModulName",
+            "app/{$dirname}/DataControl/R/ModulName",
+            "app/{$dirname}/DataControl/U/ModulName",
+            "app/{$dirname}/DataControl/D/ModulName",
             "app/{$dirname}/Util",
         ];
 
