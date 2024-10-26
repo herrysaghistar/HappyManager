@@ -114,7 +114,7 @@ class HappyManager extends Command
         {
             public function exampleMethod()
             {
-                // Your service logic here
+                return 'sukses';
             }
         }
         EOT;
@@ -137,7 +137,7 @@ class HappyManager extends Command
         {
             public function exampleMethod()
             {
-                // Your service logic here
+                return 'sukses';
             }
         }
         EOT;
@@ -160,7 +160,7 @@ class HappyManager extends Command
         {
             public function exampleMethod()
             {
-                // Your service logic here
+                return 'sukses';
             }
         }
         EOT;
@@ -183,7 +183,7 @@ class HappyManager extends Command
         {
             public function exampleMethod()
             {
-                // Your service logic here
+                return 'sukses';
             }
         }
         EOT;
@@ -206,7 +206,7 @@ class HappyManager extends Command
         {
             public function exampleMethod()
             {
-                // Your service logic here
+                return 'sukses';
             }
         }
         EOT;

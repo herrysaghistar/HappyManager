@@ -6,10 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/testC', 'app\test\DataControl\C\ModulName\TemplateOnlyC@exampleMethod');
+
 Route::get('/check-class-loaded', function () {
-    // Get all declared classes
     $loadedClasses = get_declared_classes();
     
-    // Return the loaded classes as a JSON response
     return response()->json($loadedClasses);
 });
